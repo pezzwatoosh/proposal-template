@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: font-family: 'Lato', sans-serif;
+  color:#5a5a5a;
+
+}
+
+
+section {
+  border:1px solid #cccccc;
+  padding:5%;
+}
+p {
+  margin-bottom: .9rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+ul{
+  list-style-position: inside;
+  font-weight: 300;
+}
+li{
+  line-height: 1.6;
+}
+
+h2,h3,h4{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+
+}
+h2{
+  margin-top: 2rem;
+  margin-bottom:.8rem;
+  margin-left: 40px;
+  color:#E2344A;
+}
+
+
+
+hr{
+  border:none;
+  border-bottom: 3px solid #E2344A;
+  width:50px;
+  margin:0 0 2rem;
+}
+
+a{
+  color:#E2344A;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+}
+
+a:hover {
+  color: #787878;
+}
+
+
+
+
+
+/*classes*/
+.banner {
+  min-height: 100vh;
+background-image:url('../images/palm-background.png');
+background-size: cover;
+color: white;
+text-align:center;
+}
+
+.footer{
+  background-color: #E2344A;
+  color:white;
+  text-align: center;
+}
+
+.footer h2{
+  color:white;
+}
+.footer a{
+  color:white;
+  font-weight: 600;
+}
+
+.footer hr{
+  border-bottom: 3px solid white;
+  margin:auto;
+  margin-bottom: 1rem;
+}
